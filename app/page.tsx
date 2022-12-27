@@ -13,7 +13,7 @@ export default function Page() {
               <div className="text-xs font-semibold uppercase tracking-wider text-gray-400">
                 {section.name}
               </div>
-
+              <h2>Small Change</h2>
               <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                 {section.items.map((item) => {
                   return (
